@@ -1,0 +1,64 @@
+.border-verticaux {
+	-fx-border-color : black;
+	-fx-border-width : 1;
+	-fx-border-style : none solid;
+}
+
+.cellule {
+	-fx-border-color: rgba(0,0,0,0.5);
+	-fx-border-width: 1;
+}
+
+.border {
+	-fx-border-color : black;
+	-fx-border-width : 1;
+}
+
+#carte {
+	-fx-background-image: url("./carte.jpg");
+	-fx-background-size: 600 600;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: left;
+}
+
+.indisponible {
+	-fx-background-image: url("./croix_rouge.png");
+	-fx-background-size: contain;
+	-fx-background-repeat: no-repeat;
+}
+
+.sans_etoiles {
+	-fx-background-image: url("./emp_neutre.png");
+	-fx-background-size: contain;
+	-fx-background-repeat: no-repeat;
+}
+
+.etoiles_1 {
+	-fx-background-image: url("./emp_1e.png");
+	-fx-background-size: contain;
+	-fx-background-repeat: no-repeat;
+}
+
+.etoiles_2 {
+	-fx-background-image: url("./emp_2e.png");
+	-fx-background-size: contain;
+	-fx-background-repeat: no-repeat;
+}
+
+.etoiles_3 {
+	-fx-background-image: url("./emp_3e.png");
+	-fx-background-size: contain;
+	-fx-background-repeat: no-repeat;
+}
+
+.etoiles_4 {
+	-fx-background-image: url("./emp_4e.png");
+	-fx-background-size: contain;
+	-fx-background-repeat: no-repeat;
+}
+
+.etoiles_5 {
+	-fx-background-image: url("./emp_5e.png");
+	-fx-background-size: contain;
+	-fx-background-repeat: no-repeat;
+}
